@@ -1,0 +1,46 @@
+size: 11 
+Scatter: send to rank: 0 coords(0, 0) LX = 69, LY = 768 
+Scatter: send to rank: 1 coords(1, 0) LX = 69, LY = 768 
+Scatter: send to rank: 2 coords(2, 0) LX = 69, LY = 768 
+Scatter: send to rank: 3 coords(3, 0) LX = 69, LY = 768 
+Scatter: send to rank: 4 coords(4, 0) LX = 69, LY = 768 
+Scatter: send to rank: 5 coords(5, 0) LX = 69, LY = 768 
+Scatter: send to rank: 6 coords(6, 0) LX = 69, LY = 768 
+Scatter: send to rank: 7 coords(7, 0) LX = 69, LY = 768 
+Scatter: send to rank: 8 coords(8, 0) LX = 69, LY = 768 
+Scatter: send to rank: 9 coords(9, 0) LX = 69, LY = 768 
+Scatter: send to rank: 10 coords(10, 0) LX = 78, LY = 768 
+ncell = 289513, Max = 434269, Min = 193008 
+modifying cells...
+rank: 0, step: 0, cells changed: 257623, cells alive: 292216, initial AliveCells: 289513
+rank: 0, step: 500, cells changed: 18803, cells alive: 270446, initial AliveCells: 289513
+rank: 0, step: 1000, cells changed: 13069, cells alive: 269298, initial AliveCells: 289513
+rank: 0, step: 1500, cells changed: 10831, cells alive: 268594, initial AliveCells: 289513
+rank: 0, step: 2000, cells changed: 9576, cells alive: 266946, initial AliveCells: 289513
+rank: 0, step: 2500, cells changed: 8545, cells alive: 267863, initial AliveCells: 289513
+rank: 0, step: 3000, cells changed: 7955, cells alive: 266944, initial AliveCells: 289513
+rank: 0, step: 3500, cells changed: 7279, cells alive: 265993, initial AliveCells: 289513
+rank: 0, step: 4000, cells changed: 7069, cells alive: 265303, initial AliveCells: 289513
+rank: 0, step: 4500, cells changed: 6464, cells alive: 263535, initial AliveCells: 289513
+rank: 0, step: 5000, cells changed: 6029, cells alive: 263163, initial AliveCells: 289513
+rank: 0, step: 5500, cells changed: 5562, cells alive: 260886, initial AliveCells: 289513
+rank: 0, step: 6000, cells changed: 5400, cells alive: 260717, initial AliveCells: 289513
+rank: 0, step: 6500, cells changed: 5169, cells alive: 260201, initial AliveCells: 289513
+rank: 0, step: 7000, cells changed: 5005, cells alive: 260883, initial AliveCells: 289513
+rank: 0, step: 7500, cells changed: 4712, cells alive: 262905, initial AliveCells: 289513
+L = 768, size = 11, finish after 7680 steps, total time 1.212201s, time per step: 0.000158s 
+Gather: receive from rank: 0, coords(0, 0), LX = 69, LY = 768 
+Gather: receive from rank: 1, coords(1, 0), LX = 69, LY = 768 
+Gather: receive from rank: 2, coords(2, 0), LX = 69, LY = 768 
+Gather: receive from rank: 3, coords(3, 0), LX = 69, LY = 768 
+Gather: receive from rank: 4, coords(4, 0), LX = 69, LY = 768 
+Gather: receive from rank: 5, coords(5, 0), LX = 69, LY = 768 
+Gather: receive from rank: 6, coords(6, 0), LX = 69, LY = 768 
+Gather: receive from rank: 7, coords(7, 0), LX = 69, LY = 768 
+Gather: receive from rank: 8, coords(8, 0), LX = 69, LY = 768 
+Gather: receive from rank: 9, coords(9, 0), LX = 69, LY = 768 
+Gather: receive from rank: 10, coords(10, 0), LX = 78, LY = 768 
+cellwrite: opening file <cell.pbm>
+cellwrite: writing data ...
+cellwrite: ... done
+cellwrite: file closed

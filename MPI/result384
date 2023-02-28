@@ -1,0 +1,13 @@
+L = 384, size = 1, finish after 1232 steps, total time 0.630757s, time per step:   0.000512s 
+L = 384, size = 2, finish after 1232 steps, total time 0.338779s, time per step:   0.000275s 
+L = 384, size = 4, finish after 1232 steps, total time 0.201150s, time per step:   0.000163s 
+L = 384, size = 8, finish after 1232 steps, total time 0.130876s, time per step:   0.000106s 
+L = 384, size = 16, finish after 1232 steps, total time 0.093735s, time per step:  0.000076s 
+L = 384, size = 32, finish after 1232 steps, total time 0.063311s, time per step:  0.000051s 
+L = 384, size = 48, finish after 1232 steps, total time 0.055393s, time per step:  0.000045s 
+L = 384, size = 64, finish after 1232 steps, total time 0.051928s, time per step:  0.000042s 
+L = 384, size = 80, finish after 1232 steps, total time 0.059195s, time per step:  0.000048s 
+L = 384, size = 96, finish after 1232 steps, total time 0.053277s, time per step:  0.000043s 
+L = 384, size = 102, finish after 1232 steps, total time 0.053389s, time per step: 0.000043s 
+L = 384, size = 118, finish after 1232 steps, total time 0.061705s, time per step: 0.000050s 
+L = 384, size = 144, finish after 1232 steps, total time 0.049212s, time per step: 0.000040s 

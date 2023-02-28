@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# This script is configured for rapid turnaround in the short queue
+# This only works for jobs *less than 20 minutes on 2 nodes or fewer*.
+# For more nodes set "--qos=standard" and delete the reservation line.
+
+#SBATCH --account=m22oc-S2329216
+#SBATCH --job-name=Xad
+#SBATCH --time=00:20:00
+#SBATCH --nodes=4
+#SBATCH --ntasks=55
+
+#SBATCH --qos=standard
+
+
+# You can probably leave these options mostly as they are
+
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --exclusive
+#SBATCH --tasks-per-node=4
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=standard
+
+module --silent load intel-compilers-19
+#module --silent load gcc
+module --silent load mpt
+#module --silent load intel-mpi-19
+
+#Launch the parallel job with different number of processes
+#for i in 1 2 4 8 16 32 48 64 80 96 102 118 144 
+#do 
+#    srun -n $i --unbuffered --distribution=block:block --hint=nomultithread ./automation2d 1234 | grep time >> result384
+#done
+
+srun --unbuffered --distribution=block:block --hint=nomultithread ./automation2d 1234
+
+
